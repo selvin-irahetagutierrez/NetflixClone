@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff
+  } 
+  body{
+    font-family: 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #000;
+    
+  }
+  section{
+    display:grid;
+    min-height: 52vh;
+    position: relative;
+    z-index: 1;
+  }
+  .container {
+    box-shadow: inset 10px 100px 100px 30px black;
+    background-image: url(../img/1_5lyavS59mazOFnb55Z6znQ.png);
+    background-size: cover;
+    z-index: 0;
+  }
+.logo{
+    height: 5vh;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 28px;
+}
+.signInBtn{
+  background-color: #e50914;
+  float: right;
+  font-size: .9rem;
+  line-height: normal;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border:none;
+  margin-top: -44px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.text{
+  text-align: center;
+  justify-content: center;
+  display:table-cell;
+  vertical-align: middle;
+  margin-top: 8vh;
+}
+.mainText{
+  font-size: 1.8em;
+}
+.textSub{
+  margin: 3%;
+  font-size: 1.2em;
+}
+.textToEmail{
+  font-size:1.2em;
+  margin-bottom:1vh;
+  max-width: 70%;
+  margin-left: 13%;
+}
+.form__input {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.6vh;
+	margin: 0 auto;
+  padding: .9rem 1rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 45vh;
+  display: block;
+  margin-bottom: 2vh;
+}
+
+.button-1 {
+  background-color: #e50914;
+  border-radius: 2px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #db0510;
+}
+.subTitle{
+  text-align: center;
+  margin-top:5vh;
+  font-size: 25px;
+}
+.subText{
+  text-align:center;
+  max-width: 47vh;
+  font-size:18px;
+  margin-left:10px;
+  margin-top: 20px;
+}
+.tvImg{
+  width:80%;
+  height:auto;
+  margin: 7%;
+}
+.tvCharacter{
+  width:85%;
+  height:auto;
+  margin: 7%;
+}
+.download{
+  text-align: center;
+  margin-left: 40px;
+  margin-top:5vh;
+  font-size: 25px;
+  max-width: 40vh;
+}
+.downloadSub{
+  text-align:center;
+  max-width: 47vh;
+  font-size:20px;
+  margin-left:10px;
+  margin-top: -160px;
+}
+.phoneImg{
+  width:80%;
+  height:auto;
+  margin: 7%;
+  margin-left: 10%;
+  margin-top: -0px
+}
+.FAQ{
+  text-align: center;
+  margin-top:5vh;
+  font-size: 27px;
+  max-width: 38vh;
+  margin-left:13%;
+}
+details{
+  background-color: #303030;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+summary {
+  padding: .8em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;  
+  transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after{
+  content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+details[open] summary:after{
+  content: "\00D7";
+}
+
+details[open] div{
+  padding: .5em 1em;
+}
+.button-2 {
+  background-color: #e50914;
+  border-radius: 2px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  margin-left: 17vh;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-2:hover,
+.button-2:focus {
+  background-color: #db0510;
+}
+.textToEmail1{
+  font-size:1.2em;
+  margin-bottom:-34px;
+  max-width: 70%;
+  margin-left: 13%;
+  margin-top: -2vh;
+}
+.form__input1 {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.6vh;
+	margin: 0 auto;
+  padding: .9rem 1rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 45vh;
+  display: block;
+
+  margin-bottom: 2vh;
+}
+footer{    
+  display:grid;
+  min-height: 51vh;
+  position: relative;
+  z-index: 1;
+  
+}
+.footer{
+  color: #6c6c6c;
+  margin: 5vh;
+  
+}
+.FAQSection{
+  display:grid;
+  min-height: 78vh;
+  position: relative;
+  z-index: 1;
+}
+.vertical-menu {
+  color:#6c6c6c;
+  width: 200px;
+  margin-top: -16vh; 
+  margin-left:4vh/* Set a width if you like */
+}
+
+.vertical-menu a {
+  color:#6c6c6c;
+  font-size: 14px;
+  display: block; /* Make the links appear below each other */
+  padding: 9px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+.footerOption:hover{
+  text-decoration: underline;
+}
