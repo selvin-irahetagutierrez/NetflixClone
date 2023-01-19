@@ -213,6 +213,7 @@ details[open] div{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-bottom:20px;
 }
 
 .button-2:hover,
