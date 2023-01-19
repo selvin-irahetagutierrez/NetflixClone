@@ -67,7 +67,7 @@
   padding: .9rem 1rem;
   background-color: rgb(255, 255, 255);
   border: none;
-  width: 45vh;
+  width: 35vh;
   display: block;
   margin-bottom: 2vh;
 }
@@ -149,9 +149,9 @@
 .FAQ{
   text-align: center;
   margin-top:5vh;
-  font-size: 27px;
-  max-width: 38vh;
-  margin-left:13%;
+  font-size: 25px;
+  margin-bottom: 2vh;
+  margin-right: 10px;
 }
 details{
   background-color: #303030;
@@ -160,7 +160,7 @@ details{
 }
 
 summary {
-  padding: .8em 1.3rem;
+  padding: .8em 1.6rem;
   list-style: none;
   display: flex;
   justify-content: space-between;  
@@ -220,10 +220,11 @@ details[open] div{
   background-color: #db0510;
 }
 .textToEmail1{
+  text-align: center;
   font-size:1.2em;
-  margin-bottom:-34px;
-  max-width: 70%;
-  margin-left: 13%;
+  margin-bottom:-10px;
+  max-width: 80%;
+  margin-left: 8%;
   margin-top: -2vh;
 }
 .form__input1 {
@@ -234,7 +235,7 @@ details[open] div{
   padding: .9rem 1rem;
   background-color: rgb(255, 255, 255);
   border: none;
-  width: 45vh;
+  width: 38vh;
   display: block;
 
   margin-bottom: 2vh;
@@ -253,14 +254,14 @@ footer{
 }
 .FAQSection{
   display:grid;
-  min-height: 78vh;
+  min-height: 90vh;
   position: relative;
   z-index: 1;
 }
 .vertical-menu {
   color:#6c6c6c;
   width: 200px;
-  margin-top: -16vh; 
+  margin-top: -12vh; 
   margin-left:4vh/* Set a width if you like */
 }
 
