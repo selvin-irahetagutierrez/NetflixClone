@@ -225,7 +225,7 @@ details[open] div{
   margin-bottom:-10px;
   max-width: 80%;
   margin-left: 8%;
-  margin-top: -2vh;
+  margin-top: 1vh;
 }
 .form__input1 {
   font-family: 'Roboto', sans-serif;
@@ -261,7 +261,7 @@ footer{
 .vertical-menu {
   color:#6c6c6c;
   width: 200px;
-  margin-top: -12vh; 
+  margin-top: -9vh; 
   margin-left:4vh/* Set a width if you like */
 }
 
